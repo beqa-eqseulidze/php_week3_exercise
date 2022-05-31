@@ -1,0 +1,55 @@
+body{
+    background-color:lightgray;
+    font-size: 25px;
+}
+div.container{
+    width:600px;
+    display:flex;
+    flex-direction: column; 
+    margin:100px auto;
+    align-items: center;           
+}
+table,
+tr,
+th,
+td {
+    border: 1px solid black;
+    text-align: center;
+    font-size: 25px;
+}
+
+th:first-child{
+    width: 150px;
+
+}
+th:nth-child(2){
+    width:100px;            
+}
+th:nth-child(3),
+th:nth-child(4){
+    width:150px
+}
+
+img{
+    width:100px;
+    height:100px;
+    display: block;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+form > *{
+    margin-top:10px;
+    height: 30px;
+ 
+}
+.btn{
+    width:130px;
+    background-color: greenyellow;
+    cursor: pointer;
+    border:none;
+    font-size:20px;
+}
